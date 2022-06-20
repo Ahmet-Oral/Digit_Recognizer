@@ -1,10 +1,14 @@
 # Digit_Recognition
-Basics of Machine Learning Final Project
-# Description:
-This application contains a program that trained using MNIST dataset to predict handwritten digits. There is a GUI for users to draw their own digits using mouse. Program can predict user drawn digits.
+###### Final Project for class:
+Basics of Machine Learning
+###### Instructor
+Dr. Paweł Morkisz
+
+## Description:
+The program is trained using MNIST dataset to predict handwritten digits. There is a GUI for users to draw their own digits using a mouse. The program can predict digits that users draw using their mouse. It can also be used to predict digits in images if they are provided as an input. 
 
   
-# Structure:
+## Structure:
 Digit Recognition:<br/>
  -evaluateModel.py  ->To evaluate model.h5.<br/>
  -model.h5          ->Model created in saveModel.py<br/>
@@ -14,14 +18,14 @@ Digit Recognition:<br/>
 Report.pdf:          ->Pdf of the report<br/>
 
 
-# Usage:
-  To use application, simply run predictGUI.py.
+## Usage:
+  To use the application, simply run predictGUI.py.
   
-# Language, Version, IDE
+## Language, Version, IDE
   Python 3.8, Pycharm Community Edition 2020.2.3
 
-# Requirements:
+## Requirements:
 python -m pip install keras tensorflow Pillow opencv-python
 
-You don't have to run saveModel.py to create a model because model.h5 is already included in repository. Of course if you wish to create the model in you computer, you can run saveModel.py and a new model will be created.
+You don't have to run saveModel.py to create a model because model.h5 is already included in the repository. If you wish to create a new model on you computer, you can run saveModel.py and a new model will be created.
 
