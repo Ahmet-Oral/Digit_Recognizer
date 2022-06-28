@@ -30,3 +30,8 @@ python -m pip install keras tensorflow Pillow opencv-python
 
 You don't have to run saveModel.py to create a model because model.h5 is already included in the repository. If you wish to create a new model on you computer, you can run saveModel.py and a new model will be created.
 
+## Example Image
+![digit](https://user-images.githubusercontent.com/65031185/176141710-a2151d22-81ec-4e68-b180-e030bb0b2016.png)
+
+
+
